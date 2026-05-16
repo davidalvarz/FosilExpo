@@ -1,0 +1,122 @@
+[
+  {
+    "id": "82ff6ed1-4d4f-4120-8362-e287193fe16f",
+    "action": "SECTION_DELETE",
+    "label": "Sección eliminada",
+    "icon": "delete",
+    "level": "delete",
+    "detail": "\"Velociraptor\" (tipo: gallery)",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:45:27.289Z"
+  },
+  {
+    "id": "87ccd8b7-9d79-4568-ae24-2fdeb1b79594",
+    "action": "LOGIN",
+    "label": "Inicio de sesión",
+    "icon": "login",
+    "level": "info",
+    "detail": "Usuario: admin",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:44:31.770Z"
+  },
+  {
+    "id": "1b509a89-9f32-4ff2-8ac1-fad2ecb78c18",
+    "action": "LOGOUT",
+    "label": "Cierre de sesión",
+    "icon": "logout",
+    "level": "info",
+    "detail": "",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:43:31.009Z"
+  },
+  {
+    "id": "2ba08c19-acba-43a3-b6b2-a263d49d575d",
+    "action": "LOGIN",
+    "label": "Inicio de sesión",
+    "icon": "login",
+    "level": "info",
+    "detail": "Usuario: admin",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:43:27.211Z"
+  },
+  {
+    "id": "6cbf44a8-8859-4b0c-8a20-c7f62d1c4545",
+    "action": "LOGOUT",
+    "label": "Cierre de sesión",
+    "icon": "logout",
+    "level": "info",
+    "detail": "",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:43:21.232Z"
+  },
+  {
+    "id": "0c9ef1d6-b1a5-4940-bab0-00b9c3b3b397",
+    "action": "SETTINGS_UPDATE",
+    "label": "Configuración actualizada",
+    "icon": "settings",
+    "level": "update",
+    "detail": "Campos modificados: globalFont, accentColor",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:39:36.953Z"
+  },
+  {
+    "id": "8eebc5a3-1239-4f6a-9697-bb995a101b2b",
+    "action": "SECTION_CREATE",
+    "label": "Sección creada",
+    "icon": "create",
+    "level": "create",
+    "detail": "Tipo: gallery · \"Velociraptor\"",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:37:54.885Z"
+  },
+  {
+    "id": "dedf9ac5-4b3c-4fb3-bafe-fced39992208",
+    "action": "FILE_UPLOAD",
+    "label": "Archivo(s) subido(s)",
+    "icon": "upload",
+    "level": "create",
+    "detail": "3 archivo(s): IMG-20260428-WA0153.jpg, IMG-20260429-WA0012.jpg, IMG-20260428-WA0150.jpg",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:37:52.767Z"
+  },
+  {
+    "id": "10db4e60-97d3-47c8-8e03-063514e30733",
+    "action": "SECTION_DELETE",
+    "label": "Sección eliminada",
+    "icon": "delete",
+    "level": "delete",
+    "detail": "\"Velociraptor\" (tipo: gallery)",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:32:56.003Z"
+  },
+  {
+    "id": "8eb3d123-96f5-4dda-bd38-9f0291997c0e",
+    "action": "SECTION_CREATE",
+    "label": "Sección creada",
+    "icon": "create",
+    "level": "create",
+    "detail": "Tipo: gallery · \"Velociraptor\"",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:32:10.668Z"
+  },
+  {
+    "id": "fcebf79a-f9e7-480d-8585-7f3f64f8ea8a",
+    "action": "FILE_UPLOAD",
+    "label": "Archivo(s) subido(s)",
+    "icon": "upload",
+    "level": "create",
+    "detail": "3 archivo(s): IMG-20260428-WA0153.jpg, IMG-20260429-WA0012.jpg, IMG-20260428-WA0150.jpg",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:32:09.838Z"
+  },
+  {
+    "id": "4057f4d9-201b-4351-aaee-d005d3be1e32",
+    "action": "SETTINGS_UPDATE",
+    "label": "Configuración actualizada",
+    "icon": "settings",
+    "level": "update",
+    "detail": "Historial de logs limpiado",
+    "ip": "::1",
+    "timestamp": "2026-05-16T01:27:07.543Z"
+  }
+]

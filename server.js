@@ -9,8 +9,9 @@ const app  = express();
 const PORT = process.env.PORT || 3000;
 
 /* ── Directorios ─────────────────────────────────────── */
-const UPLOADS_DIR = path.join(__dirname, 'uploads');
-const DATA_DIR    = path.join(__dirname, 'data');
+const STORAGE_DIR = process.env.STORAGE_DIR || path.join(__dirname, 'storage');
+const UPLOADS_DIR = path.join(STORAGE_DIR, 'uploads');
+const DATA_DIR    = path.join(STORAGE_DIR, 'data');
 [UPLOADS_DIR, DATA_DIR].forEach(d => {
   if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
 });
@@ -134,8 +135,8 @@ function requireAuth(req, res, next) {
 ══════════════════════════════════════════════════════ */
 app.post('/api/auth/login', (req, res) => {
   const { username, password } = req.body;
-  const U = process.env.ADMIN_USER || '5csh4';
-  const P = process.env.ADMIN_PASS || '5csh4';
+  const U = process.env.ADMIN_USER || 'admin';
+  const P = process.env.ADMIN_PASS || 'admin';
   if (username === U && password === P) {
     req.session.authenticated = true;
     addLog('LOGIN', `Usuario: ${username}`, req);
