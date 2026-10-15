@@ -44,22 +44,6 @@ fossil-expo/
         └── admin.js
 ```
 
----
-
-## Deploy en Railway
-
-1. Crear repositorio en GitHub y subir el proyecto
-2. Conectar repositorio en [railway.app](https://railway.app)
-3. Railway detecta automáticamente Node.js y usa `railway.toml`
-4. Opcional: configurar variables de entorno en Railway:
-   - `ADMIN_USER` — usuario admin (default: admin)
-   - `ADMIN_PASS` — contraseña admin (default: admin)
-   - `SESSION_SECRET` — secreto para sesiones
-
-> **Nota:** Para producción en Railway se recomienda agregar un volumen persistente montado en `/uploads` y `/data` para que los archivos subidos no se pierdan entre deploys.
-
----
-
 ## Funcionalidades del admin
 
 | Función | Descripción |
